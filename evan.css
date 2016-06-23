@@ -1,0 +1,73 @@
+/*#background {
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: relative;
+};
+
+#background::after {
+  content: " ";
+  background: url("IMG_2584.jpg");
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+};*/
+
+body {
+  background-image: url("IMG_2584.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#bar {
+  float: right;
+  position: fixed;
+}
+
+ul {
+  padding: 10px;
+  text-align: center;
+}
+
+
+li {
+  padding: 10px;
+  border-radius: 5px;
+  border: 5px solid rgba(200, 200, 200, .9);
+  display: block;
+  background: rgba(192, 192, 192, .8);
+  margin: 5px 0px 5px 0px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#header {
+  display: block;
+  background-color: rgba(192, 192, 192, .8 );
+  clear: both;
+  margin: 0 auto;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+#body {
+  float: right;
+  display: inline-block;
+  background-color: rgba(192, 192, 192, .8);
+  border: 5px solid rgba(200, 200, 200, .9);
+  margin: 50px 20px 50px 20px;
+  text-align: center;
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+footer {
+  background-color: rgba(192, 192, 192, .8);
+  margin-top: 500px;
+}
