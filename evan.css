@@ -26,6 +26,7 @@ body {
 #bar {
   float: right;
   position: fixed;
+  z-index: 1;
 }
 
 ul {
@@ -34,7 +35,7 @@ ul {
 }
 
 
-li {
+.sidebar {
   padding: 10px;
   border-radius: 5px;
   border: 5px solid rgba(200, 200, 200, .9);
@@ -67,7 +68,37 @@ li {
 
 }
 
-footer {
+#footer {
   background-color: rgba(192, 192, 192, .8);
   margin-top: 500px;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+#headshot {
+  width: 30%;
+  height: 45%;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 10px;
+}
+li {
+  list-style-type: none;
+}
+
+#personal {
+  background-color: rgba(192, 192, 192, .8);
+  float: right;
+  border: 5px solid rgba(200, 200, 200, .9);
+  margin: 200px -350px 30px 50px;
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
+  width: 20%;
+  height: 20%;
+  text-align: center;
+}
+
+.icon {
+  height: 10%;
+  width: 10%;
 }
