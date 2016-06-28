@@ -24,9 +24,8 @@ body {
 }
 
 #bar {
-  float: right;
+  float: left;
   position: fixed;
-  z-index: 1;
 }
 
 ul {
@@ -54,6 +53,7 @@ ul {
   text-align: center;
   font-family: 'Quicksand', sans-serif;
   border-radius: 5px;
+  z-index: 1
 
 }
 
@@ -62,12 +62,13 @@ ul {
   size: 30%;
   background-color: rgba(192, 192, 192, .8);
   border: 5px solid rgba(200, 200, 200, .9);
-  margin: 50px 20px 50px 370px;
+  margin: 50px 200px 50px 250px;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
   padding: 10px 10px 10px 10px;
   border-radius: 5px;
   clear: both;
+  display: block;
 
 }
 
@@ -77,8 +78,8 @@ ul {
 }
 
 #memorygame {
-  width: 350px;
-  height: 250px;
+  width: 30%;
+  height: 20%;
   display: inline;
   border-radius: 5px;
 }
@@ -108,11 +109,21 @@ li {
   border: 5px solid rgba(200, 200, 200, .9);
   margin: 50px 10px 250px 950px;
   font-family: 'Quicksand', sans-serif;
-  width: 20%;
-  height: 20%;
+  width: auto;
+  height: auto;
   text-align: center;
+  position: fixed;
+  top: 10em;
+  right: 5px;
+  clear: both;
+  display: block;
+  overflow: auto;
+
 }
 
+.contact {
+  display: block;
+}
 #personal:hover {
   background-color: rgba(165, 200, 163, .8);
   font-weight: bold;
