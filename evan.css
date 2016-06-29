@@ -17,10 +17,28 @@
   z-index: -1;
 };*/
 
-body {
+/*body {
   background: url("IMG_2584.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+}*/
+
+/*body {
+  background-color: rgba(192, 192, 192, .2);
+}
+
+#top {
+  background-image: url("IMG_2584.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}*/
+
+html {
+  background: url("IMG_2584.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #bar {
@@ -57,7 +75,7 @@ ul {
 
 }
 
-.body {
+#projects {
   width: 40%;
   size: 30%;
   background-color: rgba(192, 192, 192, .8);
@@ -72,7 +90,21 @@ ul {
 
 }
 
-.body:hover{
+.blogpost {
+  width: 60%;
+  size: 30%;
+  background-color: rgba(192, 192, 192, .8);
+  border: 5px solid rgba(200, 200, 200, .9);
+  margin: 50px 200px 50px 250px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  clear: both;
+  display: block;
+}
+
+#projects:hover{
   background-color: rgba(165, 200, 163, .8);
   font-weight: bold;
 }
@@ -119,6 +151,12 @@ li {
   display: block;
   overflow: auto;
 
+}
+
+#peter {
+  width: 20%;
+  height: 20%;
+  margin: 0 auto;
 }
 
 .contact {
